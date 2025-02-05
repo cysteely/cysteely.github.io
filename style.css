@@ -1,0 +1,177 @@
+body {
+    background-image: url("../img/snow-covered-mountain-cloudy-sky-daytime.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.navbar{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+}
+
+.navbar-brand{
+    color: black;
+    /* font-family: 'Bubblegum Sans', sans-serif; */
+    font-weight: 1000;
+    font-size: xx-large;
+}
+.navbar-brand:hover{
+    color:pink;
+}
+
+.navbar-logo {
+    max-width: 75px;
+    border: 3px blue;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar-logo:hover{
+    transform: scale(1.5) translateX(-10px) translateY(10px);
+}
+
+.download_button_container{
+    display: flex;
+    justify-content: center;
+}
+
+.border-container {
+    background: white; /* Ensures the box has a background */
+    border-radius: 10px; /* Rounds the corners slightly */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+    padding: 20px; /* Adds spacing inside the box */
+}
+
+.cloud-button{
+    padding: 12px 25px;
+    font-size: 16px;
+    background: pink;
+    border: none;
+    border-radius: 50px; /* Gives rounded, cloud-like edges */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds soft shadows for bumpy effect */
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.cloud-button:hover {
+    background: linear-gradient(145deg, #81D4FA, #B3E5FC);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 6px 16px rgba(0, 0, 0, 0.1); /* Slightly more exaggerated shadow on hover */
+}
+
+
+/* resume page */
+
+.total-container{
+    padding: 20px;
+}
+
+.resume-background{
+    background-color: white;
+    padding: 10px;
+}
+
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+.resume-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.resume-header h1 {
+    font-size: 2.5rem;
+}
+.contact-info {
+    font-size: 1rem;
+}
+.section-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+.skills-table td {
+    padding: 5px 15px;
+}
+
+/* hobbies */
+.cards-h-list{
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between; /*evenly space out cards*/
+    flex-wrap: wrap; /*allow cards to wrap to next line if page too small*/
+}
+
+.cards-h-list li {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 250px; /*allow cards to grow and shrink with base of 250px*/
+}
+
+.hike-container,
+.boarding-container,
+.upcycling-container{
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
+
+
+.hike-container img,
+.boarding-container img,
+.upcycling-container img{
+    object-fit: cover; /*make objects not distorted*/
+    height: 300px;
+    width: 100%;
+}
+
+.hike-container p,
+.boarding-container p,
+.upcycling-container p{
+    text-align: center justify;
+}
+
+/*projects page*/
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes sure it's centered in the full view */
+    width: 100%;
+}
+
+.carousel {
+    width: 300%; 
+    max-width: 900px; 
+    margin: auto; /* Centers horizontally */ */
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+
+.carousel-item img{
+    /* object-fit: cover; */
+    height: 450px;
+    width: 100%;
+    padding:10px;
+    /* border-radius: 30px; */
+    border: white;
+}
+
+.carousel-item p{
+    color: black;
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    height: 50%;
+}
+
+
